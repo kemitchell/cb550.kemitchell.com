@@ -1,0 +1,2 @@
+#!/bin/sh
+rsync --quiet -W -avr --exclude .git --delete ./ kyle@cb550.kemitchell.com:/var/www/cb550.kemitchell.com
